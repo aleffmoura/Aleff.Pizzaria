@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "d2708360-2ace-4ebd-8b7c-89223e8521a9",
+		"name": "UDS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "4. Detail Order",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "ac",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44306/api/orders/1/detail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44306",
+					"path": [
+						"api",
+						"orders",
+						"1",
+						"detail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Post - Save Order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"PizzaId\" : 1\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44306/api/orders",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44306",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1. Post Pizzas",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Size\": \"Medium\",\n\t\"Flavor\":\"Portuguesa\"\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44306/api/pizzas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44306",
+					"path": [
+						"api",
+						"pizzas"
+					]
+				},
+				"description": "Primeiro deve-se adicionar uma pizza, escolhendo seu tamanho e seu sabor, após isso, caso queira adicionais, é necessario dar um Patch na pizza, editando seus adicionais"
+			},
+			"response": []
+		},
+		{
+			"name": "2. Update Pizza",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Id\":1,\n\t\"Customizations\":[\"Bacon\",\"NoOnion\",\"EdgeStuffed\"]\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44306/api/pizzas",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44306",
+					"path": [
+						"api",
+						"pizzas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

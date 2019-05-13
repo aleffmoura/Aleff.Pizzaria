@@ -1,0 +1,1173 @@
+     1	rchar: 9733729
+     2	wchar: 3113
+     3	syscr: 228
+     4	syscw: 4
+     5	read_bytes: 2969600
+     6	write_bytes: 8192
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7969, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.246891
+     4	se.vruntime                                  :           377.433071
+     5	se.sum_exec_runtime                          :            17.545189
+     6	se.nr_migrations                             :                    2
+     7	nr_switches                                  :                   40
+     8	nr_voluntary_switches                        :                   37
+     9	nr_involuntary_switches                      :                    3
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               234496
+    12	se.avg.util_sum                              :               125952
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963246891
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                  594
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x3d8/0x4e7
+     4	[<0000000000000000>] wrmsrl+0x10/0x13
+     5	[<0000000000000000>] do_signal+0x36/0x4c3
+     6	[<0000000000000000>] paravirt_read_msr+0x7/0xa
+     7	[<0000000000000000>] timekeeping_get_ns+0x19/0x2c
+     8	[<0000000000000000>] ktime_get+0x40/0x50
+     9	[<0000000000000000>] update_rmtp+0x60/0x8b
+    10	[<0000000000000000>] hrtimer_nanosleep+0xf6/0x131
+    11	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	7
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	7
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	37
+    53	nonvoluntary_ctxt_switches:	3
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 4096
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7972, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.344365
+     4	se.vruntime                                  :           377.310961
+     5	se.sum_exec_runtime                          :            10.995265
+     6	se.nr_migrations                             :                    5
+     7	nr_switches                                  :                   35
+     8	nr_voluntary_switches                        :                   34
+     9	nr_involuntary_switches                      :                    1
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               246325
+    12	se.avg.util_sum                              :                42503
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963344365
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                  117
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] __switch_to+0x371/0x45f
+     5	[<0000000000000000>] timerqueue_del+0x4b/0x59
+     6	[<0000000000000000>] do_signal+0x36/0x4c3
+     7	[<0000000000000000>] hrtimer_try_to_cancel+0x94/0xb4
+     8	[<0000000000000000>] hrtimer_cancel+0x11/0x1b
+     9	[<0000000000000000>] read_events+0x185/0x1cc
+    10	[<0000000000000000>] add_wait_queue_exclusive+0x3a/0x3a
+    11	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	10
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	10
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	34
+    53	nonvoluntary_ctxt_switches:	1
+     1	rchar: 7457411
+     2	wchar: 3109
+     3	syscr: 192
+     4	syscw: 3
+     5	read_bytes: 270336
+     6	write_bytes: 8192
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7973, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.237531
+     4	se.vruntime                                  :          1845.354331
+     5	se.sum_exec_runtime                          :           551.324422
+     6	se.nr_migrations                             :                   11
+     7	nr_switches                                  :                  835
+     8	nr_voluntary_switches                        :                  826
+     9	nr_involuntary_switches                      :                    9
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :              9014041
+    12	se.avg.util_sum                              :              8458012
+    13	se.avg.load_avg                              :                  186
+    14	se.avg.util_avg                              :                  176
+    15	se.avg.last_update_time                      :        2075963237531
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                  109
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __raw_spin_unlock_irq+0x5/0xd
+     6	[<0000000000000000>] do_sigtimedwait+0x17b/0x1dc
+     7	[<0000000000000000>] SYSC_rt_sigtimedwait+0x7e/0xc5
+     8	[<0000000000000000>] syscall_trace_enter+0x102/0x1f5
+     9	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    10	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    11	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	11
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	11
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	826
+    53	nonvoluntary_ctxt_switches:	9
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7974, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.347871
+     4	se.vruntime                                  :           377.309796
+     5	se.sum_exec_runtime                          :            21.784344
+     6	se.nr_migrations                             :                   37
+     7	nr_switches                                  :                  236
+     8	nr_voluntary_switches                        :                  232
+     9	nr_involuntary_switches                      :                    4
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :              1315584
+    12	se.avg.util_sum                              :               987440
+    13	se.avg.load_avg                              :                   23
+    14	se.avg.util_avg                              :                   20
+    15	se.avg.last_update_time                      :        2075963347871
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                  125
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __switch_to_asm+0x40/0x70
+     6	[<0000000000000000>] __switch_to_asm+0x34/0x70
+     7	[<0000000000000000>] __switch_to_asm+0x34/0x70
+     8	[<0000000000000000>] __switch_to_asm+0x40/0x70
+     9	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+    10	[<0000000000000000>] __switch_to_asm+0x34/0x70
+    11	[<0000000000000000>] wrmsrl+0x10/0x13
+    12	[<0000000000000000>] __switch_to+0x371/0x45f
+    13	[<0000000000000000>] SyS_futex+0xd1/0x153
+    14	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    15	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    16	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	12
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	12
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	232
+    53	nonvoluntary_ctxt_switches:	4
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7975, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.349903
+     4	se.vruntime                                  :           377.308322
+     5	se.sum_exec_runtime                          :             0.400266
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               207872
+    12	se.avg.util_sum                              :                 1024
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963349903
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                  116
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+     6	[<0000000000000000>] SyS_futex+0xd1/0x153
+     7	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+     8	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+     9	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	13
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	13
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7976, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.352455
+     4	se.vruntime                                  :           377.308842
+     5	se.sum_exec_runtime                          :             0.374296
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               208040
+    12	se.avg.util_sum                              :                 2048
+    13	se.avg.load_avg                              :                    4
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963352455
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   81
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] __remove_hrtimer+0x2d/0x83
+     5	[<0000000000000000>] hrtimer_try_to_cancel+0x94/0xb4
+     6	[<0000000000000000>] do_signal+0x36/0x4c3
+     7	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+     8	[<0000000000000000>] fput+0x12/0x82
+     9	[<0000000000000000>] SYSC_epoll_wait+0x227/0x360
+    10	[<0000000000000000>] syscall_trace_enter+0x102/0x1f5
+    11	[<0000000000000000>] wake_up_q+0x45/0x45
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	14
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	14
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7977, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.355016
+     4	se.vruntime                                  :           377.308851
+     5	se.sum_exec_runtime                          :             0.407140
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               210944
+    12	se.avg.util_sum                              :                 2048
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963355016
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   95
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] __switch_to+0x371/0x45f
+     5	[<0000000000000000>] timerqueue_del+0x4b/0x59
+     6	[<0000000000000000>] do_signal+0x36/0x4c3
+     7	[<0000000000000000>] hrtimer_try_to_cancel+0x94/0xb4
+     8	[<0000000000000000>] hrtimer_cancel+0x11/0x1b
+     9	[<0000000000000000>] read_events+0x185/0x1cc
+    10	[<0000000000000000>] add_wait_queue_exclusive+0x3a/0x3a
+    11	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	15
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	15
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7978, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.357113
+     4	se.vruntime                                  :           377.308387
+     5	se.sum_exec_runtime                          :             0.348549
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               209466
+    12	se.avg.util_sum                              :                 2048
+    13	se.avg.load_avg                              :                    4
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963357113
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   89
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+     6	[<0000000000000000>] SyS_futex+0xd1/0x153
+     7	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+     8	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+     9	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	16
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	16
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7979, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.359175
+     4	se.vruntime                                  :           377.308352
+     5	se.sum_exec_runtime                          :             0.575461
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               212992
+    12	se.avg.util_sum                              :                 2048
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963359175
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   84
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __lru_cache_add+0x1e/0x4f
+     6	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+     7	[<0000000000000000>] SyS_futex+0xd1/0x153
+     8	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+     9	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    10	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	17
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	17
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7980, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.360922
+     4	se.vruntime                                  :           377.308037
+     5	se.sum_exec_runtime                          :             0.258967
+     6	se.nr_migrations                             :                    0
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               212023
+    12	se.avg.util_sum                              :                 1051
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963360922
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   89
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+     6	[<0000000000000000>] SyS_futex+0xd1/0x153
+     7	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+     8	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+     9	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	18
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	18
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 2276318
+     2	wchar: 4
+     3	syscr: 36
+     4	syscw: 1
+     5	read_bytes: 2695168
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7969, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.246891
+     4	se.vruntime                                  :           377.433071
+     5	se.sum_exec_runtime                          :            17.545189
+     6	se.nr_migrations                             :                    2
+     7	nr_switches                                  :                   40
+     8	nr_voluntary_switches                        :                   37
+     9	nr_involuntary_switches                      :                    3
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               234496
+    12	se.avg.util_sum                              :               125952
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963246891
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   80
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x3d8/0x4e7
+     4	[<0000000000000000>] wrmsrl+0x10/0x13
+     5	[<0000000000000000>] do_signal+0x36/0x4c3
+     6	[<0000000000000000>] paravirt_read_msr+0x7/0xa
+     7	[<0000000000000000>] timekeeping_get_ns+0x19/0x2c
+     8	[<0000000000000000>] ktime_get+0x40/0x50
+     9	[<0000000000000000>] update_rmtp+0x60/0x8b
+    10	[<0000000000000000>] hrtimer_nanosleep+0xf6/0x131
+    11	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	7
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	7
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	37
+    53	nonvoluntary_ctxt_switches:	3
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7970, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.339694
+     4	se.vruntime                                  :           377.399093
+     5	se.sum_exec_runtime                          :             0.307529
+     6	se.nr_migrations                             :                    1
+     7	nr_switches                                  :                    2
+     8	nr_voluntary_switches                        :                    2
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               205443
+    12	se.avg.util_sum                              :                92160
+    13	se.avg.load_avg                              :                    2
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963339694
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   80
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] __switch_to_asm+0x34/0x70
+     5	[<0000000000000000>] do_signal+0x36/0x4c3
+     6	[<0000000000000000>] paravirt_read_msr+0x7/0xa
+     7	[<0000000000000000>] timekeeping_get_ns+0x19/0x2c
+     8	[<0000000000000000>] ktime_get+0x40/0x50
+     9	[<0000000000000000>] update_rmtp+0x60/0x8b
+    10	[<0000000000000000>] hrtimer_nanosleep+0xf6/0x131
+    11	[<0000000000000000>] hrtimer_init+0xcd/0xcd
+    12	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    13	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    14	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	8
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	8
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	2
+    53	nonvoluntary_ctxt_switches:	0
+     1	rchar: 0
+     2	wchar: 0
+     3	syscr: 0
+     4	syscw: 0
+     5	read_bytes: 0
+     6	write_bytes: 0
+     7	cancelled_write_bytes: 0
+     1	sqlservr (7971, #threads: 12)
+     2	-------------------------------------------------------------------
+     3	se.exec_start                                :       2075963.416937
+     4	se.vruntime                                  :           377.432519
+     5	se.sum_exec_runtime                          :             0.480709
+     6	se.nr_migrations                             :                    3
+     7	nr_switches                                  :                   11
+     8	nr_voluntary_switches                        :                   11
+     9	nr_involuntary_switches                      :                    0
+    10	se.load.weight                               :              1048576
+    11	se.avg.load_sum                              :               351298
+    12	se.avg.util_sum                              :               124994
+    13	se.avg.load_avg                              :                    0
+    14	se.avg.util_avg                              :                    0
+    15	se.avg.last_update_time                      :        2075963416937
+    16	policy                                       :                    0
+    17	prio                                         :                  120
+    18	clock-delta                                  :                   73
+     1	[<0000000000000000>] freezable_schedule+0x15/0x17
+     2	[<0000000000000000>] do_signal_stop+0x17d/0x199
+     3	[<0000000000000000>] get_signal+0x122/0x4e7
+     4	[<0000000000000000>] do_signal+0x36/0x4c3
+     5	[<0000000000000000>] get_empty_filp+0x11c/0x196
+     6	[<0000000000000000>] __seccomp_filter+0x7f/0x229
+     7	[<0000000000000000>] __fd_install+0x2c/0xb7
+     8	[<0000000000000000>] SyS_ppoll+0x123/0x149
+     9	[<0000000000000000>] prepare_exit_to_usermode+0x5e/0x9b
+    10	[<0000000000000000>] entry_SYSCALL_64_after_swapgs+0x58/0xc6
+    11	[<0000000000000000>] 0xffffffffffffffff
+     1	Name:	sqlservr
+     2	Umask:	0022
+     3	State:	T (stopped)
+     4	Tgid:	7
+     5	Ngid:	0
+     6	Pid:	9
+     7	PPid:	1
+     8	TracerPid:	0
+     9	Uid:	0	0	0	0
+    10	Gid:	0	0	0	0
+    11	FDSize:	64
+    12	Groups:	 
+    13	NStgid:	7
+    14	NSpid:	9
+    15	NSpgid:	1
+    16	NSsid:	1
+    17	VmPeak:	  270296 kB
+    18	VmSize:	  270292 kB
+    19	VmLck:	       0 kB
+    20	VmPin:	       0 kB
+    21	VmHWM:	   60728 kB
+    22	VmRSS:	   60724 kB
+    23	RssAnon:	   50864 kB
+    24	RssFile:	    9860 kB
+    25	RssShmem:	       0 kB
+    26	VmData:	  115844 kB
+    27	VmStk:	     140 kB
+    28	VmExe:	    2416 kB
+    29	VmLib:	   29220 kB
+    30	VmPTE:	     528 kB
+    31	VmPMD:	      28 kB
+    32	VmSwap:	       0 kB
+    33	HugetlbPages:	       0 kB
+    34	Threads:	12
+    35	SigQ:	2/7844
+    36	SigPnd:	0000000000000000
+    37	ShdPnd:	0000000000000200
+    38	SigBlk:	0000000600005007
+    39	SigIgn:	0000000000000000
+    40	SigCgt:	00000001c18086f8
+    41	CapInh:	00000000a80425fb
+    42	CapPrm:	00000000a80425fb
+    43	CapEff:	00000000a80425fb
+    44	CapBnd:	00000000a80425fb
+    45	CapAmb:	0000000000000000
+    46	Seccomp:	2
+    47	Speculation_Store_Bypass:	thread force mitigated
+    48	Cpus_allowed:	00000000,00000000,00000000,00000003
+    49	Cpus_allowed_list:	0-1
+    50	Mems_allowed:	1
+    51	Mems_allowed_list:	0
+    52	voluntary_ctxt_switches:	11
+    53	nonvoluntary_ctxt_switches:	0

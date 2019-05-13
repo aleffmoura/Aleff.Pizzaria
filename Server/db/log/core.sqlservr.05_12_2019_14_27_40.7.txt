@@ -1,0 +1,21 @@
+This program has encountered a fatal error and cannot continue running at Sun May 12 14:27:40 2019
+The following diagnostic information is available:
+
+       Reason: 0x00000006
+       Status: 0x40000015
+      Message: Kernel bug check
+      Address: 0x6b044180
+   Parameters: 0x10861f680
+   Stacktrace: 000000006b12fc73 000000006b0441db 000000006b031422 
+               000000006b03fe62 000000006b12e08a 000000006b12cb8d 
+               000000006b16c0d2 000000006b4ac000 000000006b438000 
+               000000006b440000 0000000000000001 
+      Process: 7 - sqlservr
+       Thread: 11 (application thread 0x4)
+  Instance Id: 8763dfe1-b47a-4daf-8512-6ef33dd3e55e
+     Crash Id: 33c96359-a104-4ae0-94b3-7edd01e2109f
+  Build stamp: b2ce95e3a6684060d1d3bb1264841a1a8fc1d501ed6d1cfdb89cfcdde8048253
+ Distribution: Ubuntu 16.04.6 LTS
+   Processors: 2
+ Total Memory: 2076532736 bytes
+    Timestamp: Sun May 12 14:27:40 2019

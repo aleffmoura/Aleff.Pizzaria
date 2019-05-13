@@ -1,0 +1,68 @@
+05/12/2019 14:27:35.504297500 Info [paldumper] <0000000199/0x00000000> Executing PalDumper against PID: 8
+05/12/2019 14:27:35.504351200 Info [paldumper] <0000000199/0x00000000>                       Dump type: miniplus
+05/12/2019 14:27:35.504359600 Info [paldumper] <0000000199/0x00000000> Stopping target
+05/12/2019 14:27:35.504371000 Info [paldumper] <0000000199/0x00000000> Target stopped
+05/12/2019 14:27:35.504378400 Info [paldumper] <0000000199/0x00000000> Attaching to target threads
+05/12/2019 14:27:35.504401500 Warning [paldumper] <0000000199/0x00000000> Yama PTRACE mode: 1-Restricted
+05/12/2019 14:27:35.504462000 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=8 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504471100 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504479300 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=9 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504486800 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504494700 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=10 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504502000 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504509600 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=11 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504516700 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504524300 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=12 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504531400 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504538900 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=13 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504545900 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504553400 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=14 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504560300 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504567800 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=15 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504574800 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504582200 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=16 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504589100 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504596400 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=17 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504603300 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504610600 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=18 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504617500 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504625100 Error [paldumper] <0000000199/0x00000000> Attempt to execute ptrace command (16) for pid=19 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.504631900 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504643700 Error [paldumper] <0000000199/0x00000000> Attempt to trace target failed.
+05/12/2019 14:27:35.504650700 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.504657600 Error [paldumper] <0000000199/0x00000000> Reference previous log messages.
+05/12/2019 14:27:35.504664600 Error [paldumper] <0000000199/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.530324900 Info [paldumper] <0000000201/0x00000000> Executing PalDumper against PID: 8
+05/12/2019 14:27:35.531038400 Info [paldumper] <0000000201/0x00000000>                       Dump type: filtered
+05/12/2019 14:27:35.531052100 Info [paldumper] <0000000201/0x00000000> Stopping target
+05/12/2019 14:27:35.531065000 Info [paldumper] <0000000201/0x00000000> Target stopped
+05/12/2019 14:27:35.531072600 Info [paldumper] <0000000201/0x00000000> Attaching to target threads
+05/12/2019 14:27:35.531151100 Warning [paldumper] <0000000201/0x00000000> Yama PTRACE mode: 1-Restricted
+05/12/2019 14:27:35.531222300 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=8 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531231400 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531239300 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=9 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531246600 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531254100 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=10 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531261000 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531268400 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=11 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531275200 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531282500 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=12 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531289300 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531296600 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=13 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531303500 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531311100 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=14 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531317800 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531324900 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=15 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531331700 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531338900 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=16 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531345700 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531352900 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=17 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531359700 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531366900 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=18 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531373700 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531380800 Error [paldumper] <0000000201/0x00000000> Attempt to execute ptrace command (16) for pid=19 failed - EPERM process cannot be traced.
+05/12/2019 14:27:35.531387500 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531400600 Error [paldumper] <0000000201/0x00000000> Attempt to trace target failed.
+05/12/2019 14:27:35.531407400 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001
+05/12/2019 14:27:35.531414100 Error [paldumper] <0000000201/0x00000000> Reference previous log messages.
+05/12/2019 14:27:35.531445400 Error [paldumper] <0000000201/0x00000000> errno: 0x00000001

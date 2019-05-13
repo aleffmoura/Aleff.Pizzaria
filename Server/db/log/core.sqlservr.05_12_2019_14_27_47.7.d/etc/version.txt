@@ -1,0 +1,22 @@
+sqlservr
+  Version 14.0.3076.1
+  Build ID 7670f80cea6a0f776e0ca64ded633c642a1c5a785aaf8549d23955283d7a86fd
+  Build Type release
+  Git Version 8b7335f
+  Built at Thu Mar 21 02:53:07 GMT 2019
+
+PAL
+  Build ID b2ce95e3a6684060d1d3bb1264841a1a8fc1d501ed6d1cfdb89cfcdde8048253
+  Build Type release
+  Git Version 0878bdb
+  Built at Thu Mar 21 02:51:17 GMT 2019
+
+Packages
+  system.security                         10.0.15603.907.4
+  system.certificates                     6.2.9200.3,unset,
+  secforwarderxplat                       15.0.1400.23577
+  sqlservr                                14.0.3076.1
+  system.common                           10.0.15063.907.6
+  system.netfx                            4.6.1590.0
+  system                                  6.2.9200.3,unset,
+  sqlagent                                14.0.3076.1
